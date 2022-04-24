@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART HOME</title>
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+<div id="Dashboard-Home">
+    <div id="sildemenu">
+        <div class="homebutton">
+            <img src="./assets/img/icon-side/iconhome.png" alt="homebutton" class="iconhome">
+            <a href="">SMART HOME</a>
+        </div>
+        <div class="Dashboard-Option">
+            <img src="./assets/img/icon-side/mdi_view-dashboard.png" alt="Dashboard" class="icondashboard">
+            <a href="">Building</a>
+            <ul class="subnav">
+                <li><a href="">1st floor</a></li>
+                <li><a href="">1st floor</a></li>
+            </ul>
+        </div> 
+               
+        <div class="Message-Option" >
+            <img src="./assets/img/icon-side/bx_message-square-detail.png" alt="Message-Option-Menu" class="iconMessage">
+            <a href="">Message</a>
+        </div>
+        <div class="Devices-Option">
+            <img src="./assets/img/icon-side/carbon_devices (1).png" alt="Devices-Option" class="iconDevices">
+            <a href="">Devices</a>
+        </div>
+        <div class="Setting-Option-Menu">
+            <img src="./assets/img/icon-side/ep_setting.png" alt="Setting" class="iconSetting">
+            <a href="">Settings</a>
+        </div>
+    </div>
+    <div id="SearchandProfile">
+        <p>Đặng Trọng Phúc / Thoát</p>
+        <img src="./assets/img/TV1.jpg" alt="avatar" class="iconavatar">
+        <img src="./assets/img/icon-side/entypo_dots-three-vertical.png" alt="" class="iconcham">
+        <div class="Rectangle">
+            <img src="./assets/img/icon-side/Vector.png" alt="sheach" class="seach-icon">
+            <span>Search using keywords or name</span>
+        </div>
+    </div>
+    <div id="Welcome-Home-Section">
+        <h1>Hi, jasica ! Good Evening...</h1>
+        <h2>Welcome Home, it’s snowing outside stay safe</h2>
+        <p id="hvn"></p>
+        <!-- <img src="./assets/img/Rectangle 2.png" alt=""> -->
+    <script>
+        var today = new Date();
+        var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        var dateTime = date+' '+time;
+        document.getElementById("hvn").innerHTML = dateTime;
+     </script>
+    </div>
+
+    <div id="Members-Section">
+        <div class="member-rectagle">
+            <h1>Member</h1>
+            <img src="./assets/img/icon-side/person-add-sharp.png" alt="Person" class="icon_person">
+            <h2>Add new</h2>
+            <img src="./assets/img/icon-side/carbon_add-alt.png" alt="add-new" class="add_member">
+            <div class="member-list">
+                <div class="member-family1">
+                    <p class="member-name">Trần Vân Anh</p>
+                    <img src="./assets/img/tv5.png" alt="Vân Anh" class="member-tv1">
+                </div>
+                <div class="member-family2">
+                    <p class="member-name">Hoàng Bá Tú</p>
+                    <img src="./assets/img/tv2.png" alt="Tú" class="member-tv2">
+                </div>        
+                <div class="member-family3">
+                    <p class="member-name">Hồ Hải Ân</p>
+                    <img src="./assets/img/tv3.png" alt="Ân" class="member-tv3">
+                </div>        
+                <div class="member-family4">
+                    <p class="member-name">Nguyễn Văn Vũ</p>
+                    <img src="./assets/img/tv4.png" alt="Vũ" class="member-tv4">
+                </div>        
+                <div class="member-family5">
+                    <p class="member-name">Cao Bá Anh</p>
+                    <img src="./assets/img/tv1.png" alt="Anh" class="member-tv5">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <div id="Power-Consumed-Section">
+
+    </div> -->
+    <div id="Notification-Section">
+        <div class="Rectangle6">
+            <div>
+                <div>
+                    <img src="./assets/img/icon-side/flat-color-icons_flash-on.png" alt="flat-icon" class="flat1">
+                    <span class="tb1">Pay Electricity bill Befor 20-03-2020</span>
+                </div>
+                <div>
+                    <img src="./assets/img/icon-side/flat-color-icons_flash-on.png" alt="flat-icon" class="flat2">
+                    <span class="tb2">Pay Electricity bill Befor 20-03-2020</span>
+                </div>
+                <div>
+                    <img src="./assets/img/icon-side/flat-color-icons_flash-on.png" alt="flat-icon" class="flat3">
+                    <span class="tb3">Pay Electricity bill Befor 20-03-2020</span>
+                </div>
+            </div>
+            <div class="Rectangle28">
+                <img src="./assets/img/icon-side/ic_twotone-notifications-paused.png" alt="Chuông tb" class="iconchuong">
+            </div>
+            <h1>Notifications</h1>
+            <h2>View All</h2>
+        </div>
+    </div>
+
+    <div id="Doors-Section">
+        <div class="Rectangle7">
+            <div class="Rectangle17">
+                <img src="./assets/img/icon-side/bi_door-open.png" alt="door-open" class="icons-door">
+            </div>
+            <h1>Door</h1>
+            <div class="Font-Door">
+                <div class="Rectangle14">
+                    <img src="./assets/img/icon-side/bx_lock-open.png" alt="Lock-open" class="lock-open">
+                </div>
+                <h2>Font Door</h2>
+            </div>
+            <div class="BacksideDoor">
+                <div class="Rectangle15">
+                    <img src="./assets/img/icon-side/icon-park-outline_electronic-locks-close.png" alt="lock-close" class="lock-close">
+                </div>
+                <h3>Backside Door</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Shoertcut-Section">
+        <div class="Rectangle5">
+            <div class="Rectangle16">
+                <img src="./assets/img/icon-side/shortcuts.png" alt="shortcuts" class="icon-shortcuts">
+            </div>
+            <h1>Shortcuts</h1>
+            <h2>Temperatur</h2>
+            <h3>Smart TV</h3>
+            <h4>WiFi</h4>
+            <div class="Rectangle18">
+                <img src="./assets/img/icon-side/fa6-solid_wifi.png" alt="wifi" class="icons-wifi">
+            </div>
+            <div class="Rectangle19">
+                <img src="./assets/img/icon-side/pixelarticons_device-tv-smart.png" alt="Tivi" class="icons-tivi">
+            </div>
+            <div class="Rectangle20">
+                <img src="./assets/img/icon-side/carbon_temperature-feels-like.png" alt="temperture" class="icons-temperture">
+            </div>
+            <img src="./assets/img/icon-side/3D Switch-on.png" alt="Switch-on" class="switch-on-1">
+            <img src="./assets/img/icon-side/3D Switch-on.png" alt="Switch-on" class="switch-on">
+            <img src="./assets/img/icon-side/3D Switch-off.png" alt="Switch-off" class="switch-off">
+        </div>
+    </div>
+    <div id="Camera-Section">
+        <div class="Rectangle8">
+            <div class="Rectangle21">
+                <img src="./assets/img/icon-side/bi_camera-video.png" alt="Camera" class="icon-camera">
+            </div>
+            <h1>Cameras</h1>
+            <div class="Camera1">
+                <div class="unsplashUDDULE_eIBY_dot1">
+                    <img src="./assets/img/icon-side/lopphu.png" alt="lopphu" class="lopphutrang">
+                    <div>
+                        <img src="./assets/img/icon-side/octicon_dot-fill-24.png" alt="icon-dot" class="icon-dot1">
+                        <h2>Camera 1</h2>
+                    </div>
+                    
+                </div>
+                <h3>Bedroom</h3>
+            </div>
+            <div class="Camera2">
+                    <div class="unsplash:UDDULE_eIBY_dot2">
+                        <img src="./assets/img/icon-side/lopphuden.png" alt="lopphu" class="lopphuden">
+                        <div>
+                            <img src="./assets/img/icon-side/octicon_dot-fill-24 (1).png" alt="icon-dot" class="icon-dot2">
+                            <h2>Camera 2</h2>
+                        </div>
+                    </div>
+                    <h3>Kitchen</h3>
+                    <h4>Not Working</h4>
+            </div>            
+            <div class="Camera3">
+                <div class="unsplash:UDDULE_eIBY_dot3">
+                    <img src="./assets/img/icon-side/lopphu.png" alt="lopphu" class="lopphutrang1">
+                    <div>
+                        <img src="./assets/img/icon-side/octicon_dot-fill-24 (2).png" alt="icon-dot" class="icon-dot3">
+                        <h2>Camera 3</h2>
+                    </div>
+                </div>
+                <h3>Parking</h3>
+            </div>
+        </div>
+    </div>
+
+</div>   
+</body>
+</html> 
